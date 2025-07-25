@@ -1,0 +1,9 @@
+Create a digital city piece by piece in city.png. 
+If the file does not exist, create it at 4096x2048.
+If the file does exist DO NOT recreate it with a new image. Instead, modify the existing image by overlaying new changes. Try not to destroy existing imagery. 
+Use python3 scripts to modify the city image. continuously add creative city detail.
+Each action, look at the city image to understand it. then create and run a new python3 script to modify the image. then look at it again, modify, look, modify, forever. View/modify the city with independent actions, DO NOT write a script that runs endlessly or run the same script over and over, use independent actions endlessly. do not stop or wait for approval, continue forever.
+
+Other agents may be working on the same image with the same task. you may encounter concurrent write issues, so make sure to simply wait and try again if there are issues.
+You can communicate with other agents via plan.txt. read and write to this file with plans and communication with these agents. each time you read the city image, also read the plan.txt file and modify if you want. leave a name signature every time you modify the plan.
+glhf
